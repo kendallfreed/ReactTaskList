@@ -1,0 +1,60 @@
+.addtask{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 5px;
+    border: 2px solid #696565;
+}
+
+.addtask form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.addtask label{
+    font-size: 22px;
+    margin-right: 5px;
+    color: rgb(233, 223, 223);
+}
+
+.addtask input{
+    font-size: 18px;
+    padding: 7px;
+    border: 1px solid #e4dada;
+    border-radius: 5px;
+    flex-grow: 1;
+    margin: 10px;
+}
+
+.addtask input:focus{
+    outline: none;
+}
+
+.addtask select{
+    font-size: 18px;
+    padding: 7px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    border: 1px solid #e4dada;
+}
+
+.addtask button{
+    font-size: 20px;
+    padding: 7px 10px;
+    margin: 10px;
+    background-color: #1f6e61;
+}
+
+.addtask .reset{
+    font-size: 18px;
+    padding: 7px 10px;
+    margin: 10px;
+    background-color: #5c1616;
+    color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+}
